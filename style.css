@@ -1,0 +1,65 @@
+#nombre {
+  text-align: center;
+  margin: 2%;
+}
+.fakeimg {
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+.carta {
+  background-color: rgb(117, 111, 100);
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  box-shadow: 5px 5px 2px #333;
+}
+ul {
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 5%;
+  list-style: none;
+}
+#TitHab,
+#TitPok {
+  text-align: center;
+}
+
+#ObtenerId {
+    text-align: center;
+    font-weight: bold;
+}
+
+.row {
+    background-image: url("https://pbs.twimg.com/media/DQum78SUMAIqYzS?format=jpg&name=large") ;
+}
+.col {
+    margin: 2em;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecera{
+  background-image: url("https://www.androidsis.com/wp-content/uploads/2015/09/pokemon-juego.jpg.webp") ;
+  border: 5px solid #212529;
+  background-repeat:no-repeat;
+  background-position: center;
+  width: auto;
+  text-shadow: 1px 1px black, 1px 1px black;
+  
+}
+
+#pokemonTitulo{
+  font-size: 8em;
+
+}
