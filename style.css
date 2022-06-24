@@ -14,7 +14,7 @@
   object-fit: cover;
 }
 .carta {
-  background-color: rgb(117, 111, 100);
+  background-color: rgb(224, 54, 24);
   width: 40%;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +30,13 @@ ul {
 #TitHab,
 #TitPok {
   text-align: center;
+  /* border: 0.3px solid yellow;
+  border-width: 3px;
+  border-radius: 45px; */
+ 
 }
+
+
 
 #ObtenerId {
     text-align: center;
@@ -56,10 +62,13 @@ ul {
   background-position: center;
   width: auto;
   text-shadow: 1px 1px black, 1px 1px black;
-  
-}
+  }
 
 #pokemonTitulo{
   font-size: 8em;
-
 }
+
+img{
+  background-color: wheat;
+}
+
