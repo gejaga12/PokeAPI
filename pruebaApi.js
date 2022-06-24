@@ -19,7 +19,13 @@ form.onsubmit = function (e) {
 // DESDE LA API BUSCAMOS POKEMON CON NOMBRE O ID INGRESADO EN EL FORMULARIO
 function buscarPokemon(pokemonId) {
   fetch("https://pokeapi.co/api/v2/pokemon/" + pokemonId)
+  .then(response => {
+    if (!response.ok) throw Error(response.status);
+
+    return response;
+})
     .then((response) => response.json())
+    .catch(error => alert("No se encuentra el pokemon "+pokemonId+" eso no es muy pokeamigo de tu parte"))
     .then((pokemon) => {
       pokemonId = pokemon.name;
       pokeFotoFrente =
@@ -64,7 +70,8 @@ function buscarPokemon(pokemonId) {
           listaOrdenadaHabilidades.appendChild(crearNombreHabilidad);
         }
       });
-    });
+    })
+    
 }
 
 let estadoFoto = false;
