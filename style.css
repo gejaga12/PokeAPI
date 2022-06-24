@@ -33,42 +33,62 @@ ul {
   /* border: 0.3px solid yellow;
   border-width: 3px;
   border-radius: 45px; */
- 
 }
 
-
-
 #ObtenerId {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 .row {
-    background-image: url("https://pbs.twimg.com/media/DQum78SUMAIqYzS?format=jpg&name=large") ;
+  background-image: url("https://pbs.twimg.com/media/DQum78SUMAIqYzS?format=jpg&name=large");
 }
 .col {
-    margin: 2em;
+  margin: 2em;
 }
 
 .navbar-nav {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#cabecera{
-  background-image: url("https://www.androidsis.com/wp-content/uploads/2015/09/pokemon-juego.jpg.webp") ;
+#cabecera {
+  background-image: url("https://www.androidsis.com/wp-content/uploads/2015/09/pokemon-juego.jpg.webp");
   border: 5px solid #212529;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   width: auto;
   text-shadow: 1px 1px black, 1px 1px black;
-  }
+}
 
-#pokemonTitulo{
+#pokemonTitulo {
   font-size: 8em;
 }
 
-img{
+img {
   background-color: wheat;
 }
 
+.grande {
+  height: 50%;
+  width: 50%;
+}
+.ant {
+  margin-left: 8%;
+  margin-bottom: 2%;
+}
+
+.sig {
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+
+#habilidades {
+  margin-left: 35%;
+  text-align: justify;}
+  /* width: 150px;
+  height: 120px;
+  border: 1.5px solid rgb(0, 0, 0);
+  background: #428bca;
+  box-shadow: 2px 2px 2px #333;
+} */

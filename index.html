@@ -24,7 +24,9 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
         <ul class="navbar-nav">
+        
           <form class="d-flex" name="form">
+         
             <input
               class="form-control me-2"
               type="text"
@@ -32,6 +34,8 @@
               placeholder="Ingrese nombre o ID"
             />
             <button class="btn btn-warning" type="submit">Buscar</button>
+            
+            
           </form>
         </ul>
       </div>
@@ -48,28 +52,32 @@
             <div class="fakeimg">
               <img
                 id="pokefoto"
-                class="img-responsive fit-image border border-dark border border-5"
+                class="img-responsive fit-image border border-dark border border-5 pokefoto"
                 alt=""
                 src="https://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif"
               />
             </div>
+            <div id="ObtenerId"><h4 id="h4">ID: 151</h4></div>
             <div id="TitHab">
               <h2><u>HABILIDADES</u></h2>
             </div>
-            <div id="ObtenerId"><h4 id="h4">ID: 151</h4></div>
+            
             <h4>
               <ul id="habilidades">
-                • bind
+                bind
                 <li></li>
-                • slam
+                slam
                 <li></li>
-                • headbutt
+                headbutt
                 <li></li>
-                • tackle
+                tackle
                 <li></li>
               </ul>
             </h4>
+            <button id="anterior" class="btn btn-success ant" type="submit">Anterior Pokemon</button>
+            <button id="siguiente" class="btn btn-success sig" type="submit">Siguiente Pokemon</button>
           </div>
+          
           <div id="pokemonId"></div>
         </div>
       </div>
